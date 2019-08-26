@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "PartsDb",
+  "short_name": "PDb",
+  "description": "Quick access to the parts database.",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs",
+		"https://script.google.com/macros/s/*"],
+  "icons": {
+    "16": "assets/search.png"
+  },
+  "background": {"page": "background.html"}
+}
